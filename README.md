@@ -4,6 +4,10 @@ git clone --recurse-submodules https://github.com/websharpstudios/monero
 
 git clone --recurse-submodules https://github.com/monero-project/monero ./monero17
 
+cp -R ./monero17 ./monero
+
+sudo rm -f ./monero17/.git
+
 cd monero
 
 git checkout release-v18
