@@ -1,4 +1,4 @@
-# How to upgrade to version 18
+# Version 18 unit testing
 
 git clone --recurse-submodules https://github.com/websharpstudios/monero 
 
