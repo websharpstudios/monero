@@ -20,5 +20,11 @@ unit test
 
 .....
 
-make install # ONLY AFTER YOUR OLD WALLET HAS MONEY IN IT 
+ # AFTER OLD WALLET HAS MONEY IN IT 
+ 
+ make install
+ 
+ git push v18
+ 
+ # Wait 30 minutes for github confirmation of unit test
 
